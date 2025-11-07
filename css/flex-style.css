@@ -1,0 +1,63 @@
+/* Estilo geral da página */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    background-color: rgba(189, 160, 103, 0.8);
+    color: #333;
+}
+
+/* Efeito no título */
+h1:hover {
+    color: black;
+    transform: scale(1.1);
+}
+
+/* Efeito visual quando o elemento com classe .subtitulo recebe foco */
+.subtitulo:focus {
+    outline: none;
+    color: #fff;
+    background-color: rgba(114, 47, 55, 0.6);
+    padding: 5px;
+    border-radius: 6px;
+    box-shadow: 0 0 8px rgba(245, 228, 195, 0.8);
+}
+
+/* Container do menu */
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem 2rem;
+    background: linear-gradient(90deg, rgba(186, 84, 94, 1) 0%, rgba(114, 47, 55, 1) 82%);
+    border-radius: 0 0 8px 8px;
+    color: #f5e4c3;
+}
+
+/* Container dos cards */
+.cards-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+/* Container dos cards */
+.card {
+    flex-basis: 300px; 
+    flex-grow: 1;
+    max-width: 350px;
+    background-color: rgba(245, 228, 195, 0.8);
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    transition: transform 1s ease, box-shadow 1s ease;
+}
+
+/* Efeito ao passar o mouse sobre o card */
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 1); 
+    transform: scale(1.1); 
+}
