@@ -30,3 +30,7 @@ Transições suaves para um resultado visual mais agradável.
 # 👤 Desenvolvido por
 
 Gustavo Moretim Canzi
+
+# 🌐 Acesse o Projeto Online  
+
+🔗 [Acesse aqui](https://gcanzi.github.io/CP3-Front-end/) 
